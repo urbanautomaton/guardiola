@@ -13,11 +13,11 @@ Array.prototype.shuffle = function() {
 };
 
 Guardiola.data = {
-  intro: ["Don't be ridiculous", "Of course not", "You're off your nut", "Get to fuck", "Stop taking the piss"],
+  intro: ["Don't be ridiculous", "Of course not", "You're off your nut", "Get to fuck", "Stop taking the piss", "Are you taking the piss? Sheesh"],
   insult: ["chump", "suppurating kidney", "charlie", "turnip", "unpleasant comestible", "hamtoucher", "player of the pink oboe"],
   verb: ["revolutionising", "developing a new technique for", "rethinking", "turning his hand to", "reinventing", "demolishing the world of", "winning at"],
-  occupation: ["fish husbandry", "gregorian plainchant", "molecular gastronomy", "the lyric poem", "french knitting"],
-  place: ["in Botswana", "in a small monastery outside Brive", "on a dirigible circling the Kremlin", "in a walk-in wardrobe that only opens on Thursdays"]
+  occupation: ["fish husbandry", "gregorian plainchant", "molecular gastronomy", "the lyric poem", "french knitting", "Klingon opera", "timber technology"],
+  place: ["in Botswana", "in a small monastery outside Brive", "on a dirigible circling the Kremlin", "in a walk-in wardrobe that only opens on Thursdays", "in a hand-built reproduction Ford Cortina"]
 };
 
 Guardiola.random = function(thing) {

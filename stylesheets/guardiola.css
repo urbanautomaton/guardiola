@@ -38,6 +38,10 @@ a#submit {
   text-decoration: none;
 }
 
+a#submit:hover {
+  border: 1px solid red;
+}
+
 #content {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
