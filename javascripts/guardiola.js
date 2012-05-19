@@ -27,17 +27,23 @@ Guardiola.random = function(thing) {
 };
 
 jQuery(document).ready(function($) {
+  for (k in Guardiola.data) {
+    Guardiola.data[k].shuffle();
+  }
   $("#submit").click(function() {
     $(this).html("Check again!");
     var answer_source = $("#answer-template").html();
     var answer_template = Handlebars.compile(answer_source);
     var answer_context = {}
     for (k in Guardiola.data) {
-      answer_context[k] = Guardiola.random(k);
+      answer_context[k] = Guardiola.data[k][0];
     }
     var answer_html = answer_template(answer_context);
     console.log(answer_html);
     $("#answer").html(answer_html);
+    for (k in Guardiola.data) {
+      Guardiola.data[k].unshift(Guardiola.data[k].pop());
+    }
     return false;
   });
 });
