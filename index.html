@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type='text/javascript' src='javascripts/handlebars.js'></script>
+    <script type='text/javascript' src='javascripts/guardiola.js'></script>
+    <link rel='stylesheet' href='stylesheets/guardiola.css' />
+    <script id='answer-template'>
+      <h1>NO</h1>
+      <p>{{intro}}, you {{insult}}; he's {{verb}} {{occupation}} {{place}}.</p>
+    </script>
+  </head>
+  <body>
+    <div id='content'>
+      <div id='question'>
+        <p>Is Pep Guardiola available to manage my shitty football club / national team / supermarket?</p>
+        <p><a href="#" id="submit">Check availability!</a></p>
+      </div>
+      <div id='answer'></div>
+    </div>
+  </body>
+</html>
