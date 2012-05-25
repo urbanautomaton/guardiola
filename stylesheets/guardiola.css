@@ -1,5 +1,6 @@
 html {
   width: 100%;
+  background-image: url("../images/noise.png"), #204531;
   background-image: url("../images/noise.png"), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, #317754), color-stop(100%, #204531));
   background-image: url("../images/noise.png"), -moz-radial-gradient(top center, circle, #317754 0%, #204531 750px);
   background-image: url("../images/noise.png"), -o-radial-gradient(top center, 750px 750px, #317754, #204531);
